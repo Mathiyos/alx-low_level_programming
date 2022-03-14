@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
  * return: Always 0 (success/correct)
  */
@@ -12,18 +12,18 @@ int main(void)
 
 {
 
-if (alphabet == 'q')
-continue;
+	if (alphabet == 'q')
+	continue;
 
-else if (alphabet == 'e')
-continue;
+	else if (alphabet == 'e')
+	continue;
 
-putchar(alphabet);
+	putchar(alphabet);
 
 }
 
-putchar('\n');
+	putchar('\n');
 
-return (0);
+	return (0);
 
 }
