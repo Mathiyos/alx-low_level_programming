@@ -2,6 +2,7 @@
 
 /**
 * main - causes an infinite loop
+*
 * Return: 0
 */
 
@@ -13,6 +14,12 @@ int main(void)
 
         i = 0;
 
+	/*
+	 * while (i < 0)
+	 * {
+	 * Infinite loop - NO increase or variable
+	 * putchar(i);
+	 */
         while (i < 10)
         {
                 putchar(i);
