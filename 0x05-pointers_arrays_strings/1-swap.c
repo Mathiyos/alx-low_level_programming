@@ -2,8 +2,8 @@
 
 /**
  * swap_int - swap the valuses of two integers a and b
- *
- *
+ *a: A pointer 
+ *b: A pointer 
  * Return: void that means our answer is correct
  */
 
