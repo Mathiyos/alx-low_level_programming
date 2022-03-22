@@ -1,22 +1,18 @@
 #include "main.h"
-
 /**
- * _islower - Short description, single line
- * @c: contains value to be compared
+ * print_numbers - print numbers
  * Return: Always 0.
  */
-int _islower(int c)
-
+void print_numbers(void)
 {
+int i;
 
-if (c > 'a' && c < 'z')
+i = 0;
+while (i < 10)
 {
-return (1);
+_putchar (i + '0');
+i++;
 }
 
-else
-{
-return (0);
-}
-
+_putchar ('\n');
 }
